@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Jquery Mobile</title>
+<meta name="viewport" content="width=device-width,initial-scale=1, maxium-scale=no">
+
+<script language="javascript" type="text/javascript" src="js/jquery-1.11.1.min.js"></script>	
+<script language="javascript" type="text/javascript" src="jqm/jquery.mobile.js"></script>
+
+<link type="text/css" rel="stylesheet" href="jqm/jquery.mobile.css">
+<link type="text/css" rel="stylesheet" href="jqm/jquery.mobile.theme-1.4.3.min.css">
+</head>
+
+<body>
+
+<div data-role="page" id="home" data-theme="a">
+	<div data-role="header"><h1>Esto es un cabecera</h1></div>
+    <div data-role="content"><p>Esto es un contenido</p>
+    	<a href="" data-role="button" data-theme="e" data-inline="true">1</a>
+        <a href="" data-role="button" data-theme="e" data-inline="true">2</a>
+        <a href="" data-role="button" data-theme="e" data-inline="true">3</a>
+        <a href="" data-role="button" data-theme="e" data-inline="true">4</a>
+        <a href="" data-role="button" data-theme="e" data-inline="true">5</a>
+        <a href="" data-role="button" data-theme="e" data-inline="true">6</a>
+        <a href="" data-role="button" data-theme="e" data-inline="true">7</a>
+        <a href="" data-role="button" data-theme="e" data-inline="true">8</a>
+        <a href="" data-role="button" data-theme="e" data-inline="true">9</a>
+        <a href="" data-role="button" data-theme="e" data-inline="true">0</a>
+        <hr>
+        <a href="" data-role="button" data-theme="b" data-inline="true"> + </a>
+        <a href="" data-role="button" data-theme="b" data-inline="true"> - </a>
+        <a href="" data-role="button" data-theme="b" data-inline="true"> * </a>
+        <a href="" data-role="button" data-theme="b" data-inline="true"> / </a>
+        <a href="#resultado" data-role="button" data-theme="b" data-icon="alert" data-transition="slide"> Resultado </a>
+        <a href="#" class="ui-btn ui-shadow">Anchor</a>
+        <a href="nueva.html" class="ui-btn ui-shadow ui-corner-all">Anchor</a>
+    </div>
+    <div data-role="footer"><h2>Esto es un pie de página</h2></div>
+</div>
+<div data-role="page" id="resultado">
+	<div data-role="header"><h1>Página 2</h1></div>
+    <div data-role="content">Contenido de la Página 1
+    	<a href="#home" data-role="button" data-theme="b" data-rel="back">Página 1</a>
+    </div>
+    <div data-role="footer"><h2>Pie de Página</h2></div>
+</div>
+</body>
+</html>
